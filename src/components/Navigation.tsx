@@ -38,6 +38,11 @@ const Navigation = () => {
               INÍCIO
             </button>
             <button
+              onClick={() => scrollToSection("carousel")}
+              className="font-metal text-sm text-muted-foreground hover:text-pirate-green transition-colors duration-300 tracking-wide">
+              EVENTOS
+            </button>
+            <button
               onClick={() => scrollToSection("about")}
               className="font-metal text-sm text-muted-foreground hover:text-pirate-green transition-colors duration-300 tracking-wide">
               SOBRE
@@ -77,6 +82,11 @@ const Navigation = () => {
                 onClick={() => scrollToSection("hero")}
                 className="font-metal text-sm text-muted-foreground hover:text-pirate-green transition-colors duration-300 tracking-wide text-left">
                 INÍCIO
+              </button>
+              <button
+                onClick={() => scrollToSection("carousel")}
+                className="font-metal text-sm text-muted-foreground hover:text-pirate-green transition-colors duration-300 tracking-wide text-left">
+                EVENTOS
               </button>
               <button
                 onClick={() => scrollToSection("about")}
